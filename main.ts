@@ -13,7 +13,6 @@ declare module 'obsidian' {
 
 export default class TrueSelectAllPlugin extends Plugin {
     async onload() {
-      // Add the "True Select All" command with a slashtag
       this.addCommand({
         id: 'true-select-all',
         name: 'True Select All',
@@ -24,7 +23,6 @@ export default class TrueSelectAllPlugin extends Plugin {
           const end = { line: lastLine, ch: doc.getLine(lastLine).length };
           editor.setSelection(start, end);
         },
-        slashtags: ["select all", "select entire note", "true select all"], // Adds tags for slash command search
       });
     }
   
