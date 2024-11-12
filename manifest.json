@@ -1,0 +1,11 @@
+{
+    "id": "true-select-all",
+    "name": "True Select All",
+    "version": "0.0.1",
+    "minAppVersion": "1.7.5",
+    "description": "Provides a true 'Select All' functionality in Obsidian notes (mostly to overcome iOS's faulty one).",
+    "author": "Gerkinfeltser",
+    "authorUrl": "https://github.com/Gerkinfeltser",
+    "isDesktopOnly": false
+  }
+  

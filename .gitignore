@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# TypeScript declaration files
+*.d.ts
+
+# Package lock file
+package-lock.json
+
+# Build artifacts
+dist/
+out/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
