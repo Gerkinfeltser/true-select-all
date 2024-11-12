@@ -8,6 +8,9 @@ An Obsidian plugin that provides a true "Select All" functionality, allowing use
 - **Slash Command Support**: Access the "True Select All" command via Obsidian’s `/` slash commands.
 - **Customizable Shortcut**: Assign a keyboard shortcut for quick access.
 
+> **Note for iOS Users:**  
+> After using "True Select All" on iOS, you may notice that scrolling causes the visual highlight of the selected text to disappear. Despite this, the text is still selected and ready for copying or other actions. This is a common iOS behavior, where the selection highlight isn’t maintained during scrolling. For best results, avoid scrolling immediately after selecting all.
+
 ## Installation
 
 ### Manual Installation
@@ -31,6 +34,9 @@ An Obsidian plugin that provides a true "Select All" functionality, allowing use
 ## Contributing
 
 Contributions are welcome! Feel free to submit a pull request with enhancements or bug fixes.
+
+> **Note: Work in Progress**  
+> This plugin is a work in progress and has not undergone extensive testing. While it seems to work on Windows and iOS, there may be unexpected issues on other platforms. Your feedback is appreciated to help improve functionality across different environments.
 
 ## License
 
